@@ -3,6 +3,10 @@ package traf1.hejason.customquizapp;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NotificationCompat;
 
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.util.Log;
@@ -37,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 highScore++;
                 scoreBoard.setText("Score: " + highScore);
+                sendNotification(v);
             }
         });
 
@@ -44,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         reset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-            reset();
+                reset();
             }
 
             private void reset() {
@@ -59,8 +64,8 @@ public class MainActivity extends AppCompatActivity {
         nameText.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
-                if(!hasFocus){
-                    if(nameText.getText().toString().equals("TJ")){
+                if (!hasFocus) {
+                    if (nameText.getText().toString().equals("TJ")) {
                         textView.setText("TJ Rocks!");
                         nameText.setText("");
                         nameText.setHint("That's a good name");
@@ -68,8 +73,19 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-
-        NotificationCompat.Builder builder = new NotificationCompat.Builder()
-
     }
-}
+
+        public void sendNotification(View v){
+            NotificationCompat.Builder builder = new NotificationCompat.Builder(this)
+                    .setSmallIcon(R.drawable.ic_launcher_foreground)
+                    .setContentTitle("Notification #1")
+                    .setContentText("Hello world!");
+            Intent notificationIntent = new Intent(this, MainActivity.class);
+            PendingIntent contentIntent = PendingIntent.getActivity(this, 0, notificationIntent,
+                    PendingIntent.FLAG_UPDATE_CURRENT);
+            builder.setContentIntent(contentIntent);
+            NotificationManager manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+        manager.notify(0, builder.build());
+        }
+    }
+
