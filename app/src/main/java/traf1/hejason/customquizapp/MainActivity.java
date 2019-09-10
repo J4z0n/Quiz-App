@@ -3,6 +3,7 @@ package traf1.hejason.customquizapp;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NotificationCompat;
 
+import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
@@ -19,15 +20,12 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
     private int highScore;
     Button submitButton,reset;
-    EditText nameText, name2Text;
     TextView textView, scoreBoard;
     Chronometer cmTimer;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        nameText = findViewById(R.id.nameText);
-        name2Text = findViewById(R.id.name2Text);
         textView = findViewById(R.id.question);
         cmTimer = findViewById(R.id.cmTimer);
         cmTimer.start();
@@ -41,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 highScore++;
                 scoreBoard.setText("Score: " + highScore);
-                sendNotification(v);
             }
         });
 
@@ -61,31 +58,21 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        nameText.setOnFocusChangeListener(new View.OnFocusChangeListener() {
-            @Override
-            public void onFocusChange(View v, boolean hasFocus) {
-                if (!hasFocus) {
-                    if (nameText.getText().toString().equals("TJ")) {
-                        textView.setText("TJ Rocks!");
-                        nameText.setText("");
-                        nameText.setHint("That's a good name");
-                    }
-                }
-            }
-        });
-    }
+           }
 
-        public void sendNotification(View v){
-            NotificationCompat.Builder builder = new NotificationCompat.Builder(this)
-                    .setSmallIcon(R.drawable.ic_launcher_foreground)
-                    .setContentTitle("Notification #1")
-                    .setContentText("Hello world!");
-            Intent notificationIntent = new Intent(this, MainActivity.class);
-            PendingIntent contentIntent = PendingIntent.getActivity(this, 0, notificationIntent,
-                    PendingIntent.FLAG_UPDATE_CURRENT);
-            builder.setContentIntent(contentIntent);
-            NotificationManager manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+    public void sendNotification(View v){
+        NotificationManager manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+        NotificationChannel channel = new NotificationChannel("default", "default", NotificationManager.IMPORTANCE_NONE);
+        manager.createNotificationChannel(channel);
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(this)
+                .setSmallIcon(R.drawable.ic_launcher_foreground)
+                .setContentTitle("Notification #1")
+                .setContentText("Hello world!");
+        Intent notificationIntent = new Intent(this, MainActivity.class);
+        PendingIntent contentIntent = PendingIntent.getActivity(this, 0, notificationIntent,
+                PendingIntent.FLAG_UPDATE_CURRENT);
+        builder.setContentIntent(contentIntent);
         manager.notify(0, builder.build());
-        }
     }
+}
 
