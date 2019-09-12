@@ -54,9 +54,9 @@
     <ImageButton
         android:layout_width="500px"
         android:layout_height="0dp"
-        android:onClick="sendNotification"
         android:scaleType="centerInside"
         android:src="@drawable/dollar"
+        android:onClick="toastSomething"
         app:layout_constraintBottom_toTopOf="@id/question"
         app:layout_constraintLeft_toLeftOf="@id/cmTimer"
         app:layout_constraintRight_toRightOf="@id/cmTimer"

@@ -16,6 +16,7 @@ import android.widget.Button;
 import android.widget.Chronometer;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private int highScore;
@@ -58,21 +59,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-           }
+    }
 
-    public void sendNotification(View v){
-        NotificationManager manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
-        NotificationChannel channel = new NotificationChannel("default", "default", NotificationManager.IMPORTANCE_NONE);
-        manager.createNotificationChannel(channel);
-        NotificationCompat.Builder builder = new NotificationCompat.Builder(this)
-                .setSmallIcon(R.drawable.ic_launcher_foreground)
-                .setContentTitle("Notification #1")
-                .setContentText("Hello world!");
-        Intent notificationIntent = new Intent(this, MainActivity.class);
-        PendingIntent contentIntent = PendingIntent.getActivity(this, 0, notificationIntent,
-                PendingIntent.FLAG_UPDATE_CURRENT);
-        builder.setContentIntent(contentIntent);
-        manager.notify(0, builder.build());
+    public void toastSomething(View view){
+        String text = "Hello world!";
+        Toast.makeText(this, text, Toast.LENGTH_SHORT).show();
     }
 }
 
