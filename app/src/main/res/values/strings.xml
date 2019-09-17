@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Math Quiz App</string>
+    <string name="app_name">Minecraft Quiz</string>
     <string name="hardCodedString">Hello TJ!</string>
     <string name="nameHint">What is your name?</string>
     <string name="clickButton">Submit</string>
@@ -8,11 +8,4 @@
     <string name="activity2_name">End Screen</string>
     <string name="hint1">1st Number</string>
     <string name="hint2">2nd Number</string>
-    <char-array name="operations_array">
-        <item>+</item>
-        <item>-</item>
-        <item>*</item>
-        <item>/</item>
-        <item>%</item>
-    </char-array>
 </resources>

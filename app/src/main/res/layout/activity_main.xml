@@ -8,100 +8,83 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/question"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toTopOf="@id/SecondNumber"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/cmTimer"/>
-
-    <TextView
         android:id="@+id/score"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/scoreText"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintBottom_toTopOf="@id/cmTimer"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/FirstNumber"
-        android:hint="@string/hint1"
-        app:layout_constraintBottom_toTopOf="@id/button"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toLeftOf="@id/SecondNumber"
-        app:layout_constraintTop_toBottomOf="@id/question" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/SecondNumber"
-        android:hint="@string/hint2"
-        app:layout_constraintBottom_toTopOf="@id/reset"
-        app:layout_constraintLeft_toRightOf="@id/FirstNumber"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/question" />
-
-    <Spinner
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/operations_spinner"
-        app:layout_constraintBottom_toTopOf="@id/reset"
-        app:layout_constraintLeft_toRightOf="@id/FirstNumber"
-        app:layout_constraintRight_toLeftOf="@id/SecondNumber"
-        app:layout_constraintTop_toBottomOf="@id/question"
-        />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/clickButton"
-        android:textAllCaps="true"
         android:textColor="#318214"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toTopOf=""
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toLeftOf="@id/reset"
-        app:layout_constraintTop_toBottomOf="@id/FirstNumber"
-        app:layout_constraintBottom_toBottomOf="parent"/>/>
-
-    <Button
-        android:id="@+id/reset"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/tempColor"
-        android:text="@string/resetButton"
-        android:textAllCaps="true"
-        android:textColor="@color/colorAccent"
-        app:layout_constraintLeft_toRightOf="@id/button"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/SecondNumber"
-        app:layout_constraintBottom_toBottomOf="parent"/>
-
-    <!--<ImageButton
-        android:layout_width="500px"
-        android:layout_height="0dp"
-        android:scaleType="centerInside"
-        android:src="@drawable/dollar"
-        android:onClick="toastSomething"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="@id/cmTimer"
-        app:layout_constraintRight_toRightOf="@id/cmTimer"
-        app:layout_constraintTop_toBottomOf="@id/button" /> -->
+        app:layout_constraintRight_toLeftOf="@id/cmTimer"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Chronometer
         android:id="@+id/cmTimer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#318214"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@id/question"
-        app:layout_constraintLeft_toLeftOf="@id/score"
-        app:layout_constraintRight_toRightOf="@id/score"
-        app:layout_constraintTop_toBottomOf="@id/score"></Chronometer>
+        app:layout_constraintBottom_toTopOf=""
+        app:layout_constraintLeft_toRightOf="@id/score"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/picture"
+        app:layout_constraintTop_toBottomOf="@id/score"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <Button
+        android:id="@+id/one"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAllCaps="true"
+        android:textColor="#318214"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/two"
+        app:layout_constraintTop_toBottomOf="@id/picture"
+        app:layout_constraintBottom_toTopOf="@id/three"/>
+
+    <Button
+        android:id="@+id/two"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAllCaps="true"
+        android:textColor="#318214"
+        app:layout_constraintLeft_toRightOf="@id/one"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/picture"
+        app:layout_constraintBottom_toTopOf="@id/four"/>
+
+    <Button
+        android:id="@+id/three"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAllCaps="true"
+        android:textColor="#318214"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/four"
+        app:layout_constraintTop_toBottomOf="@id/one"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/four"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAllCaps="true"
+        android:textColor="#318214"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/three"
+        app:layout_constraintTop_toBottomOf="@id/two"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
