@@ -1,399 +1,399 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="question0">
-        <item>1. One reason why a diamond axe may be a better weapon than a diamond sword is because a diamond axe</item>
-        <item>a) Deals more damage per hit</item>
-        <item>b) Has a higher attack speed</item>
-        <item>c) Has a greater durability</item>
-        <item>d) Requires fewer resources to craft</item>
-        <item>e) Can receive mending through an enchanting table, whereas the sword cannot</item>
+        <item>One reason why a diamond axe may be a better weapon than a diamond sword is because a diamond axe</item>
+        <item>Deals more damage per hit</item>
+        <item>Has a higher attack speed</item>
+        <item>Has a greater durability</item>
+        <item>Requires fewer resources to craft</item>
+        <item>Can receive mending through an enchanting table, whereas the sword cannot</item>
         <item>A</item>
     </string-array>
     <string-array name="question1">
-        <item>2. A hoe is enchanted with 5 levels of experience. What is the chance that the hoe will receive only unbreaking?</item>
-        <item>a) 30%</item>
-        <item>b) 60%</item>
-        <item>c) 65%</item>
-        <item>d) 75%</item>
-        <item>e) 100%</item>
+        <item>A hoe is enchanted with 5 levels of experience. What is the chance that the hoe will receive only unbreaking?</item>
+        <item>30%</item>
+        <item>60%</item>
+        <item>65%</item>
+        <item>75%</item>
+        <item>100%</item>
         <item>E</item>
     </string-array>
     <string-array name="question2">
-        <item>3. One bone can be used to craft how many bone meal?</item>
-        <item>a) 1</item>
-        <item>b) 2</item>
-        <item>c) 3</item>
-        <item>d) 4</item>
-        <item>e) 5</item>
+        <item>One bone can be used to craft how many bone meal?</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
         <item>C</item>
     </string-array>
     <string-array name="question3">
-        <item>4. Two stone pickaxes, one with 40 durability and the other with 60 durability, are combined in a crafting table. How much durability will the resulting stone pickaxe have?</item>
-        <item>a) 40</item>
-        <item>b) 60</item>
-        <item>c) 100</item>
-        <item>d) 105</item>
-        <item>e) 132</item>
+        <item>Two stone pickaxes, one with 40 durability and the other with 60 durability, are combined in a crafting table. How much durability will the resulting stone pickaxe have?</item>
+        <item>40</item>
+        <item>60</item>
+        <item>100</item>
+        <item>105</item>
+        <item>132</item>
         <item>D</item>
     </string-array>
     <string-array name="question4">
-        <item>5. Marcus Persson is the creator of Minecraft. What nickname is he commonly given?</item>
-        <item>a) Dinnerbone</item>
-        <item>b) Grum</item>
-        <item>c) Jeb</item>
-        <item>d) Notch</item>
-        <item>e) ProfMobius</item>
+        <item>Marcus Persson is the creator of Minecraft. What nickname is he commonly given?</item>
+        <item>Dinnerbone</item>
+        <item>Grum</item>
+        <item>Jeb</item>
+        <item>Notch</item>
+        <item>ProfMobius</item>
         <item>D</item>
     </string-array>
     <string-array name="question5">
-        <item>6. The following command is executed: /tp steve ~5 ~ ~ In what direction will steve move?</item>
-        <item>a) Positive X</item>
-        <item>b) Negative X</item>
-        <item>c) Negative Y</item>
-        <item>d) Positive Z</item>
-        <item>e) Negative Z</item>
+        <item>The following command is executed: /tp steve ~5 ~ ~ In what direction will steve move?</item>
+        <item>Positive X</item>
+        <item>Negative X</item>
+        <item>Negative Y</item>
+        <item>Positive Z</item>
+        <item>Negative Z</item>
         <item>A</item>
     </string-array>
     <string-array name="question6">
-        <item>7. When creating portals, one block in the nether corresponds to how many blocks in the overworld?</item>
-        <item>a) 3</item>
-        <item>b) 7</item>
-        <item>c) 8</item>
-        <item>d) 15</item>
-        <item>e) 16</item>
+        <item>When creating portals, one block in the nether corresponds to how many blocks in the overworld?</item>
+        <item>3</item>
+        <item>7</item>
+        <item>8</item>
+        <item>15</item>
+        <item>16</item>
         <item>C</item>
     </string-array>
     <string-array name="question7">
-        <item>Questions 8-9 refer to the following information. Data for a Food in Minecraft Saturation Restored 12.8 Saturation Ratio 1.6 Saturation Ratio = Saturation Restored Hunger Points Provided 8. How many hunger points does this food provide?</item>
-        <item>a) 4</item>
-        <item>b) 5</item>
-        <item>c) 6</item>
-        <item>d) 8</item>
-        <item>e) 10</item>
+        <item>Data for a Food in Minecraft [Saturation Restored 12.8 Saturation Ratio 1.6] Saturation Ratio = Saturation Restored / Hunger Points Provided How many hunger points does this food provide?</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
         <item>D</item>
     </string-array>
     <string-array name="question8">
-        <item>Questions 8-9 refer to the following information. Data for a Food in Minecraft Saturation Restored 12.8 Saturation Ratio 1.6 Saturation Ratio = Saturation Restored Hunger Points Provided 9. What food has the properties depicted in the table?</item>
-        <item>a) Baked potato</item>
-        <item>b) Enchanted golden apple (notch apple)</item>
-        <item>c) Golden apple</item>
-        <item>d) Rabbit stew</item>
-        <item>e) Steak</item>
+        <item>Data for a Food in Minecraft [Saturation Restored 12.8 Saturation Ratio 1.6] Saturation Ratio = Saturation Restored / Hunger Points Provided What food has the properties depicted in the table?</item>
+        <item>Baked potato</item>
+        <item>Enchanted golden apple (notch apple)</item>
+        <item>Golden apple</item>
+        <item>Rabbit stew</item>
+        <item>Steak</item>
         <item>E</item>
     </string-array>
     <string-array name="question9">
-        <item>10. What resource do zombie pigmen drop?</item>
-        <item>a) Coal</item>
-        <item>b) Diamond</item>
-        <item>c) Gold</item>
-        <item>d) Iron</item>
-        <item>e) Quartz</item>
+        <item>What resource do zombie pigmen drop?</item>
+        <item>Coal</item>
+        <item>Diamond</item>
+        <item>Gold</item>
+        <item>Iron</item>
+        <item>Quartz</item>
         <item>C</item>
     </string-array>
     <string-array name="question10">
-        <item>11. How many redstone is needed to craft a clock?</item>
-        <item>a) 0</item>
-        <item>b) 1</item>
-        <item>c) 3</item>
-        <item>d) 4</item>
-        <item>e) 5</item>
+        <item>How many redstone is needed to craft a clock?</item>
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
         <item>B</item>
     </string-array>
     <string-array name="question11">
-        <item>12. How is a bottle o’ enchanting obtained?</item>
-        <item>a) Crafting</item>
-        <item>b) Enchanting</item>
-        <item>c) End city chests</item>
-        <item>d) Stronghold chests</item>
-        <item>e) Trading</item>
+        <item>How is a bottle o’ enchanting obtained?</item>
+        <item>Crafting</item>
+        <item>Enchanting</item>
+        <item>End city chests</item>
+        <item>Stronghold chests</item>
+        <item>Trading</item>
         <item>E</item>
     </string-array>
     <string-array name="question12">
-        <item>13. On what kind of tree do cocoa beans generate?</item>
-        <item>a) Acacia</item>
-        <item>b) Birch</item>
-        <item>c) Dark oak</item>
-        <item>d) Jungle</item>
-        <item>e) Swamp</item>
+        <item>On what kind of tree do cocoa beans generate?</item>
+        <item>Acacia</item>
+        <item>Birch</item>
+        <item>Dark oak</item>
+        <item>Jungle</item>
+        <item>Swamp</item>
         <item>D</item>
     </string-array>
     <string-array name="question13">
-        <item>14. Adding redstone to a potion causes what?</item>
-        <item>a) It increases the duration of the potion</item>
-        <item>b) It increases the strength of the potion</item>
-        <item>c) It creates an awkward potion</item>
-        <item>d) It negates the effect (for example, a potion of healing turns to a potion of damage)</item>
-        <item>e) Redstone cannot be added to a brewing stand</item>
+        <item>Adding redstone to a potion causes what?</item>
+        <item>It increases the duration of the potion</item>
+        <item>It increases the strength of the potion</item>
+        <item>It creates an awkward potion</item>
+        <item>It negates the effect (for example, a potion of healing turns to a potion of damage)</item>
+        <item>Redstone cannot be added to a brewing stand</item>
         <item>A</item>
     </string-array>
     <string-array name="question14">
-        <item>15. Which block will not move when there is air below it?</item>
-        <item>a) Anvil</item>
-        <item>b) Dragon egg</item>
-        <item>c) Gravel</item>
-        <item>d) Sand</item>
-        <item>e) Stone slab</item>
+        <item>Which block will not move when there is air below it?</item>
+        <item>Anvil</item>
+        <item>Dragon egg</item>
+        <item>Gravel</item>
+        <item>Sand</item>
+        <item>Stone slab</item>
         <item>E</item>
     </string-array>
     <string-array name="question15">
-        <item>16. Which effect will increase mining speed?</item>
-        <item>a) Absorption</item>
-        <item>b) Haste</item>
-        <item>c) Mining fatigue</item>
-        <item>d) Slowness</item>
-        <item>e) Speed</item>
+        <item>Which effect will increase mining speed?</item>
+        <item>Absorption</item>
+        <item>Haste</item>
+        <item>Mining fatigue</item>
+        <item>Slowness</item>
+        <item>Speed</item>
         <item>B</item>
     </string-array>
     <string-array name="question16">
-        <item>17. What (if anything) is wrong with the following client command? /tp 4000000 0 0</item>
-        <item>a) X=4,000,000 is outside the world</item>
-        <item>b) Y=0 is in the void</item>
-        <item>c) The player to be teleported is not specified</item>
-        <item>d) Unloaded chunks cannot be teleported to</item>
-        <item>e) Nothing; the command will execute without error</item>
+        <item>What (if anything) is wrong with the following client command? /tp 4000000 0 0</item>
+        <item>X=4,000,000 is outside the world</item>
+        <item>Y=0 is in the void</item>
+        <item>The player to be teleported is not specified</item>
+        <item>Unloaded chunks cannot be teleported to</item>
+        <item>Nothing; the command will execute without error</item>
         <item>E</item>
     </string-array>
     <string-array name="question17">
-        <item>18. What kind of villager wears a white robe?</item>
-        <item>a) Butcher</item>
-        <item>b) Farmer</item>
-        <item>c) Fisherman</item>
-        <item>d) Librarian</item>
-        <item>e) Priest</item>
+        <item>What kind of villager wears a white robe?</item>
+        <item>Butcher</item>
+        <item>Farmer</item>
+        <item>Fisherman</item>
+        <item>Librarian</item>
+        <item>Priest</item>
         <item>D</item>
     </string-array>
     <string-array name="question18">
-        <item>19. How many sticks can be crafted from one wood (not wooden plank)?</item>
-        <item>a) 1</item>
-        <item>b) 2</item>
-        <item>c) 4</item>
-        <item>d) 6</item>
-        <item>e) 8</item>
+        <item>How many sticks can be crafted from one wood (not wooden plank)?</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
         <item>E</item>
     </string-array>
     <string-array name="question19">
-        <item>20. In what game do players try to mine the blocks under their opponents?</item>
-        <item>a) Bed wars</item>
-        <item>b) Hunger games</item>
-        <item>c) Prison</item>
-        <item>d) Spleef</item>
-        <item>e) Survival games</item>
+        <item>In what game do players try to mine the blocks under their opponents?</item>
+        <item>Bed wars</item>
+        <item>Hunger games</item>
+        <item>Prison</item>
+        <item>Spleef</item>
+        <item>Survival games</item>
         <item>D</item>
     </string-array>
     <string-array name="question20">
-        <item>21. Which is not a type of minecart that can be crafted?</item>
-        <item>a) Chest</item>
-        <item>b) Furnace</item>
-        <item>c) Hopper</item>
-        <item>d) Spawner</item>
-        <item>e) TNT</item>
+        <item>Which is not a type of minecart that can be crafted?</item>
+        <item>Chest</item>
+        <item>Furnace</item>
+        <item>Hopper</item>
+        <item>Spawner</item>
+        <item>TNT</item>
         <item>D</item>
     </string-array>
     <string-array name="question21">
-        <item>Questions 22-23 refer to the following list I. Blaze Powder II. Charcoal/Coal III. Gunpowder 22. Which of these items are needed to craft a fire charge?</item>
-        <item>a) I only</item>
-        <item>b) III only</item>
-        <item>c) I and III only</item>
-        <item>d) II and III only</item>
-        <item>e) I, II, and III</item>
+        <item>I. Blaze Powder II. Charcoal/Coal III. Gunpowder Which of these items are needed to craft a fire charge?</item>
+        <item>I only</item>
+        <item>III only</item>
+        <item>I and III only</item>
+        <item>II and III only</item>
+        <item>I, II, and III</item>
         <item>E</item>
     </string-array>
     <string-array name="question22">
-        <item>Questions 22-23 refer to the following list I. Blaze Powder II. Charcoal/Coal III. Gunpowder 23. Which of these items can be used as fuel?</item>
-        <item>a) I only</item>
-        <item>b) II only</item>
-        <item>c) I and II only</item>
-        <item>d) II and III only</item>
-        <item>e) I, II, and III</item>
+        <item>I. Blaze Powder II. Charcoal/Coal III. Gunpowder Which of these items can be used as fuel?</item>
+        <item>I only</item>
+        <item>II only</item>
+        <item>I and II only</item>
+        <item>II and III only</item>
+        <item>I, II, and III</item>
         <item>B</item>
     </string-array>
     <string-array name="question23">
-        <item>24. In the nether, nether quartz ore is about as abundant as which ore in the overworld?</item>
-        <item>a) Coal</item>
-        <item>b) Iron</item>
-        <item>c) Redstone</item>
-        <item>d) Gold</item>
-        <item>e) Diamond</item>
+        <item>In the nether, nether quartz ore is about as abundant as which ore in the overworld?</item>
+        <item>Coal</item>
+        <item>Iron</item>
+        <item>Redstone</item>
+        <item>Gold</item>
+        <item>Diamond</item>
         <item>B</item>
     </string-array>
     <string-array name="question24">
-        <item>25. Suppose a torch (light level 14) is placed in a large flat cavern at (x,y,z)=(1,100,1). What is the light level at (4,100,-3), assuming no other light sources?</item>
-        <item>a) 7</item>
-        <item>b) 9</item>
-        <item>c) 10</item>
-        <item>d) 11</item>
-        <item>e) 12</item>
+        <item>Suppose a torch (light level 14) is placed in a large flat cavern at (x,y,z)=(1,100,1). What is the light level at (4,100,-3), assuming no other light sources?</item>
+        <item>7</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
         <item>A</item>
     </string-array>
     <string-array name="question25">
-        <item>26. The default flat surface area enclosed by the world border is about how many blocks?</item>
-        <item>a) 2.3*10^14</item>
-        <item>b) 9.0*10^14</item>
-        <item>c) 1.8*10^15</item>
-        <item>d) 3.6*10^15</item>
-        <item>e) 1.8*10^17</item>
+        <item>The default flat surface area enclosed by the world border is about how many blocks?</item>
+        <item>2.3*10^14</item>
+        <item>9.0*10^14</item>
+        <item>1.8*10^15</item>
+        <item>3.6*10^15</item>
+        <item>1.8*10^17</item>
         <item>D</item>
     </string-array>
     <string-array name="question26">
-        <item>Questions 27-28 refer to the following “It’s more magical than that! It automatically opens and turns towards players who get close”. 27. Who said the quote?</item>
-        <item>a) Anton Albiin</item>
-        <item>b) Daniel Wustenhoff</item>
-        <item>c) David Marby</item>
-        <item>d) Erik Broes</item>
-        <item>e) Markus Persson</item>
+        <item>"It’s more magical than that! It automatically opens and turns towards players who get close”. Who said the quote?</item>
+        <item>Anton Albiin</item>
+        <item>Daniel Wustenhoff</item>
+        <item>David Marby</item>
+        <item>Erik Broes</item>
+        <item>Markus Persson</item>
         <item>E</item>
     </string-array>
     <string-array name="question27">
-        <item>Questions 27-28 refer to the following “It’s more magical than that! It automatically opens and turns towards players who get close”. 28. What block is being described?</item>
-        <item>a) Chest</item>
-        <item>b) Command block</item>
-        <item>c) Daylight sensor</item>
-        <item>d) Enchanting table</item>
-        <item>e) Nether portal</item>
+        <item>“It’s more magical than that! It automatically opens and turns towards players who get close”. What block is being described?</item>
+        <item>Chest</item>
+        <item>Command block</item>
+        <item>Daylight sensor</item>
+        <item>Enchanting table</item>
+        <item>Nether portal</item>
         <item>D</item>
     </string-array>
     <string-array name="question28">
-        <item>29. Assume roll=2 and the p-value of an unstackable item is .185. What is the chance that exactly one item appears?</item>
-        <item>a) .185</item>
-        <item>b) (.185)^2</item>
-        <item>c) (2)*(.185)*(.815)</item>
-        <item>d) .630</item>
-        <item>e) (.815)^2-(.185)^2</item>
+        <item>Assume roll=2 and the p-value of an unstackable item is .185. What is the chance that exactly one item appears?</item>
+        <item>.185</item>
+        <item>(.185)^2</item>
+        <item>(2)*(.185)*(.815)</item>
+        <item>.630</item>
+        <item>(.815)^2-(.185)^2</item>
         <item>C</item>
     </string-array>
     <string-array name="question29">
-        <item>30. What is the average y-coordinate for the surface of an ocean biome?</item>
-        <item>a) 60</item>
-        <item>b) 63</item>
-        <item>c) 66</item>
-        <item>d) 69</item>
-        <item>e) 72</item>
+        <item>What is the average y-coordinate for the surface of an ocean biome?</item>
+        <item>60</item>
+        <item>63</item>
+        <item>66</item>
+        <item>69</item>
+        <item>72</item>
         <item>B</item>
     </string-array>
     <string-array name="question30">
-        <item>32. What blast resistance do all ore blocks have?</item>
-        <item>a) 15</item>
-        <item>b) 17.5</item>
-        <item>c) 25</item>
-        <item>d) 30</item>
-        <item>e) 45</item>
+        <item>What blast resistance do all ore blocks have?</item>
+        <item>15</item>
+        <item>17.5</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
         <item>A</item>
     </string-array>
     <string-array name="question31">
-        <item>Question 33-34 refer to the following commands in a default redstone-ready preset world //fill 6 1 7 4 9 2 minecraft:dirt //fill 7 8 3 6 5 1 minecraft:stone 33. After execution, how many dirt blocks will be in the world?</item>
-        <item>a) 77</item>
-        <item>b) 80</item>
-        <item>c) 152</item>
-        <item>d) 154</item>
-        <item>e) 162</item>
+        <item>The following commands are in a default redstone-ready preset world //fill 6 1 7 4 9 2 minecraft:dirt //fill 7 8 3 6 5 1 minecraft:stone After execution, how many dirt blocks will be in the world?</item>
+        <item>77</item>
+        <item>80</item>
+        <item>152</item>
+        <item>154</item>
+        <item>162</item>
         <item>D</item>
     </string-array>
     <string-array name="question32">
-        <item>Question 33-34 refer to the following commands in a default redstone-ready preset world //fill 6 1 7 4 9 2 minecraft:dirt //fill 7 8 3 6 5 1 minecraft:stone 34. After execution, how many stone blocks will be in the world?</item>
-        <item>a) 6</item>
-        <item>b) 12</item>
-        <item>c) 24</item>
-        <item>d) 30</item>
-        <item>e) 40</item>
+        <item>The following commands are in a default redstone-ready preset world //fill 6 1 7 4 9 2 minecraft:dirt //fill 7 8 3 6 5 1 minecraft:stone 34. After execution, how many stone blocks will be in the world?</item>
+        <item>6</item>
+        <item>12</item>
+        <item>24</item>
+        <item>30</item>
+        <item>40</item>
         <item>C</item>
     </string-array>
     <string-array name="question33">
-        <item>35. Which dye cannot be obtained without crafting?</item>
-        <item>a) Light blue</item>
-        <item>b) Light grey</item>
-        <item>c) Magenta</item>
-        <item>d) Pink</item>
-        <item>e) Purple</item>
+        <item>Which dye cannot be obtained without crafting?</item>
+        <item>Light blue</item>
+        <item>Light grey</item>
+        <item>Magenta</item>
+        <item>Pink</item>
+        <item>Purple</item>
         <item>E</item>
     </string-array>
     <string-array name="question34">
-        <item>36. Which type of pressure plate will increase the strength of the redstone signal emitted for each additional item dropped onto it (until the signal strength is 15)?</item>
-        <item>a) Gold</item>
-        <item>b) Iron</item>
-        <item>c) Quartz</item>
-        <item>d) Stone</item>
-        <item>e) Wooden</item>
+        <item>Which type of pressure plate will increase the strength of the redstone signal emitted for each additional item dropped onto it (until the signal strength is 15)?</item>
+        <item>Gold</item>
+        <item>Iron</item>
+        <item>Quartz</item>
+        <item>Stone</item>
+        <item>Wooden</item>
         <item>A</item>
     </string-array>
     <string-array name="question35">
-        <item>37. Which explosion is the strongest?</item>
-        <item>a) Bed in the end/nether</item>
-        <item>b) Creeper</item>
-        <item>c) End crystal</item>
-        <item>d) Ghast fireball</item>
-        <item>e) Wither skulls</item>
+        <item>Which explosion is the strongest?</item>
+        <item>Bed in the end/nether</item>
+        <item>Creeper</item>
+        <item>End crystal</item>
+        <item>Ghast fireball</item>
+        <item>Wither skulls</item>
         <item>C</item>
     </string-array>
     <string-array name="question36">
-        <item>38. Which mob can only be attacked by melee damage and splash potions?</item>
-        <item>a) Blaze</item>
-        <item>b) Charged creeper</item>
-        <item>c) Enderman</item>
-        <item>d) Skeleton</item>
-        <item>e) Wither</item>
+        <item>Which mob can only be attacked by melee damage and splash potions?</item>
+        <item>Blaze</item>
+        <item>Charged creeper</item>
+        <item>Enderman</item>
+        <item>Skeleton</item>
+        <item>Wither</item>
         <item>C</item>
     </string-array>
     <string-array name="question37">
-        <item>39. Which block burns forever?</item>
-        <item>a) Grass</item>
-        <item>b) Lily Pads (above water)</item>
-        <item>c) Obsidian</item>
-        <item>d) Netherrack</item>
-        <item>e) Wooden pressure plate</item>
+        <item>Which block burns forever?</item>
+        <item>Grass</item>
+        <item>Lily Pads (above water)</item>
+        <item>Obsidian</item>
+        <item>Netherrack</item>
+        <item>Wooden pressure plate</item>
         <item>D</item>
     </string-array>
     <string-array name="question38">
-        <item>Question 40 refers to the following list I. doFireTick II. keepInventory III. mobGriefing 40. Which of these gamerules is (are) set to true by default?</item>
-        <item>a) II only</item>
-        <item>b) III only</item>
-        <item>c) I and III only</item>
-        <item>d) II and III only</item>
-        <item>e) I, II, and III</item>
+        <item>I. doFireTick II. keepInventory III. mobGriefing Which of these gamerules is/are set to true by default?</item>
+        <item>II only</item>
+        <item>III only</item>
+        <item>I and III only</item>
+        <item>II and III only</item>
+        <item>I, II, and III</item>
         <item>C</item>
     </string-array>
     <string-array name="question39">
-        <item>41. Which of the following commands has the same effect as /time set noon?</item>
-        <item>a) /time set 6000</item>
-        <item>b) /time set 12000</item>
-        <item>c) /time set 13000</item>
-        <item>d) /time set 18000</item>
-        <item>e) /time set 24000</item>
+        <item>Which of the following commands has the same effect as /time set noon?</item>
+        <item>/time set 6000</item>
+        <item>/time set 12000</item>
+        <item>/time set 13000</item>
+        <item>/time set 18000</item>
+        <item>/time set 24000</item>
         <item>A</item>
     </string-array>
     <string-array name="question40">
-        <item>42. Which of these commands requires the lowest op level (0) in multiplayer?</item>
-        <item>a) /difficulty</item>
-        <item>b) /fill</item>
-        <item>c) /list</item>
-        <item>d) /seed</item>
-        <item>e) /tp</item>
+        <item>Which of these commands requires the lowest op level (0) in multiplayer?</item>
+        <item>/difficulty</item>
+        <item>/fill</item>
+        <item>/list</item>
+        <item>/seed</item>
+        <item>/tp</item>
         <item>C</item>
     </string-array>
     <string-array name="question41">
-        <item>43. Which plant block will break (and drop its item) if a block is placed adjacent to it?</item>
-        <item>a) Cactus</item>
-        <item>b) Nether wart</item>
-        <item>c) Peony</item>
-        <item>d) Pumpkin</item>
-        <item>e) Sugar cane</item>
+        <item>Which plant block will break (and drop its item) if a block is placed adjacent to it?</item>
+        <item>Cactus</item>
+        <item>Nether wart</item>
+        <item>Peony</item>
+        <item>Pumpkin</item>
+        <item>Sugar cane</item>
         <item>A</item>
     </string-array>
     <string-array name="question42">
-        <item>44. Which is the only command that can only be executed in single player?</item>
-        <item>a) /clear</item>
-        <item>b) /kill</item>
-        <item>c) /me</item>
-        <item>d) /publish</item>
-        <item>e) /whitelist</item>
+        <item>Which is the only command that can only be executed in single player?</item>
+        <item>/clear</item>
+        <item>/kill</item>
+        <item>/me</item>
+        <item>/publish</item>
+        <item>/whitelist</item>
         <item>D</item>
     </string-array>
     <string-array name="question43">
-        <item>45. Which block forms when water flows into lava?</item>
-        <item>a) Clay</item>
-        <item>b) Dirt</item>
-        <item>c) Glass</item>
-        <item>d) Obsidian</item>
-        <item>e) Sand</item>
+        <item>Which block forms when water flows into lava?</item>
+        <item>Clay</item>
+        <item>Dirt</item>
+        <item>Glass</item>
+        <item>Obsidian</item>
+        <item>Sand</item>
         <item>D</item>
     </string-array>
 

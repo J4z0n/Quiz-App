@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
         scoreBoard.setText(scoreBoard.getText() + "0");
 
         question = findViewById(R.id.question);
-        question.setText("epic");
 
         answerChoices[0] = findViewById(R.id.A);
         answerChoices[1] = findViewById(R.id.B);
@@ -86,6 +85,10 @@ public class MainActivity extends AppCompatActivity {
             //gameOverText.setText(getResources().getText(R.string.wrong_answer));
             //gameOver();
         }
+    }
+
+    private void gameOver(){
+
     }
 }
 

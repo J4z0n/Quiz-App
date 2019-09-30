@@ -4,6 +4,4 @@
     <string name="clickButton">Submit</string>
     <string name="resetButton">Reset</string>
     <string name="scoreText">Score:</string>
-    <string name="activity2_name">End Screen</string>
-
 </resources>
