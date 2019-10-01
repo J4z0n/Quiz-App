@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.content.res.TypedArray;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Chronometer;
@@ -18,13 +19,13 @@ public class MainActivity extends AppCompatActivity {
     private int highScore = 0, totalQuestions = 43 - 1;
     String correctAnswer;
     TypedArray questionResources, currentQuestion;
+    Button restart;
     Button[] answerChoices = new Button[5];
     TextView question, scoreBoard;
     Chronometer cmTimer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Intent intent = getIntent();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         cmTimer = findViewById(R.id.cmTimer);
@@ -40,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
         answerChoices[2] = findViewById(R.id.C);
         answerChoices[3] = findViewById(R.id.D);
         answerChoices[4] = findViewById(R.id.E);
+
+        restart = findViewById(R.id.restart);
 
         questionResources = getResources().obtainTypedArray(R.array.questions);
         updateQuestion();
@@ -67,28 +70,49 @@ public class MainActivity extends AppCompatActivity {
             highScore++;
             if (highScore >= totalQuestions) {
                 for (Button b : answerChoices)
-                    b.setVisibility(View.GONE);
-                //v.setVisibility(View.VISIBLE);
-                //v.setBackgroundColor(getResources().getColor(R.color.win));
-                //gameOverText.setText(R.string.win_game);
-                //gameOver();
+                    b.setVisibility(View.INVISIBLE);
+                v.setBackgroundColor(getResources().getColor(R.color.win));
+                gameOver();
             } else {
                 Toast.makeText(this, "Correct!", Toast.LENGTH_SHORT).show();
                 updateQuestion();
             }
         } else {
             for (Button b : answerChoices)
-                b.setVisibility(View.GONE);
-            v.setVisibility(View.VISIBLE);
+                b.setVisibility(View.INVISIBLE);
             Toast.makeText(this, "Wrong!", Toast.LENGTH_SHORT).show();
-            //v.setBackgroundColor(getResources().getColor(R.color.wrongAnswer));
-            //gameOverText.setText(getResources().getText(R.string.wrong_answer));
-            //gameOver();
+            gameOver();
         }
     }
 
     private void gameOver(){
+        restart.setVisibility(View.VISIBLE);
+        cmTimer.stop();
+        cmTimer.setVisibility(View.INVISIBLE);
+        question.setVisibility(View.INVISIBLE);
+        String output = "";
+        long time = (SystemClock.elapsedRealtime() - cmTimer.getBase()) / 1000;
+        if(highScore == 1)
+            output = "Game over! You scored " + highScore + " point";
+        else if(highScore >= totalQuestions)
+            output = "Game over! You got all the questions correct!";
+        else
+            output = "Game over! You scored " + highScore + " points";
+        scoreBoard.setText(output);
+    }
 
+    public void restart(View v){
+        restart.setVisibility(View.INVISIBLE);
+        for (Button b : answerChoices)
+            b.setVisibility(View.VISIBLE);
+        cmTimer.setVisibility(View.VISIBLE);
+        question.setVisibility(View.VISIBLE);
+        highScore = 0;
+        scoreBoard.setText(highScore + "");
+        long systemCurrTime = SystemClock.elapsedRealtime();
+        cmTimer.setBase(systemCurrTime);
+        cmTimer.start();
+        updateQuestion();
     }
 }
 

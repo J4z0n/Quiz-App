@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/scoreText"
-        android:textColor="#318214"
+        android:textColor="@color/color2"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toTopOf="@id/question"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -24,30 +24,33 @@
         android:id="@+id/cmTimer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#318214"
+        android:textColor="@color/color2"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@id/question"
         app:layout_constraintLeft_toRightOf="@id/score"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/picture"
-        app:layout_constraintTop_toBottomOf="@id/score"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        />
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="8pt"
+        android:textColor="@color/colorPrimaryDark"
         android:id="@+id/question"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/cmTimer"
         app:layout_constraintBottom_toTopOf="@id/A"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="3pt"
+        android:text="@string/credits"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toBottomOf="@id/E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
 
     <Button
         android:id="@+id/A"
@@ -55,7 +58,7 @@
         android:layout_height="wrap_content"
         android:text=""
         android:textAllCaps="true"
-        android:textColor="#318214"
+        android:textColor="@color/colorPrimaryDark"
         android:tag="A"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -69,7 +72,7 @@
         android:layout_height="wrap_content"
         android:text=""
         android:textAllCaps="true"
-        android:textColor="#318214"
+        android:textColor="@color/colorPrimaryDark"
         android:tag="B"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -83,7 +86,7 @@
         android:layout_height="wrap_content"
         android:text=""
         android:textAllCaps="true"
-        android:textColor="#318214"
+        android:textColor="@color/colorPrimaryDark"
         android:tag="C"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -97,7 +100,7 @@
         android:layout_height="wrap_content"
         android:text=""
         android:textAllCaps="true"
-        android:textColor="#318214"
+        android:textColor="@color/colorPrimaryDark"
         android:tag="D"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -111,12 +114,27 @@
         android:layout_height="wrap_content"
         android:text=""
         android:textAllCaps="true"
-        android:textColor="#318214"
+        android:textColor="@color/colorPrimaryDark"
         android:tag="E"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/D"
         app:layout_constraintBottom_toBottomOf="parent"
         android:onClick="checkAnswer"/>
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="Restart"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:tag="C"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/B"
+        app:layout_constraintBottom_toTopOf="@id/D"
+        android:onClick="restart"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

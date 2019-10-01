@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="question0">
-        <item>One reason why a diamond axe may be a better weapon than a diamond sword is because a diamond axe</item>
+        <item>One reason why a diamond axe may be a better weapon than a diamond sword is because a diamond axe?</item>
         <item>Deals more damage per hit</item>
         <item>Has a higher attack speed</item>
         <item>Has a greater durability</item>
